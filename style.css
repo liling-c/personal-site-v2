@@ -1,0 +1,12 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#course-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 350px));
+}
