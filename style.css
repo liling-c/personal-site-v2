@@ -1,9 +1,21 @@
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #dee2e6;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
 }
 
-h1 {
-    font-family: 'Ubuntu', sans-serif;
+main {
+    margin: 8px auto;
+    max-width: 80%;
+}
+
+.intro {
+    background-color: #f8f9fa;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
 }
 
 #course-list {
