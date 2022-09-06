@@ -9,6 +9,10 @@ main {
     max-width: 80%;
 }
 
+.topic {
+    padding-bottom: 5px;
+}
+
 .intro {
     background-color: #f8f9fa;
     display: flex;
@@ -18,7 +22,46 @@ main {
     padding: 20px 0;
 }
 
+#intro-text {
+    margin: 0 1% 0 3%;
+}
+
+#profile {
+    flex-basis: 350px;
+    flex-grow: 1;
+    margin: 0 3% 0 1%;
+    min-width: 0;
+    max-width: 450px;
+}
+
 #course-list {
     display: grid;
     grid-template-columns: repeat(2, minmax(140px, 350px));
+}
+
+@media screen and (max-width: 871px) {
+    
+    #intro-text {
+        margin: 2% 5%;
+    }
+
+    #profile {
+        margin: 2% 5%;
+        max-width: 350px;
+    }
+
+    #course-list {
+        display: block;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+      background-color: #22223b;
+      color: #f8f9fa;
+    }
+  
+    .intro {
+      background-color: #33364d;
+    }
 }
